@@ -3,7 +3,7 @@ package com.restful.restfulApi.controller;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("users")
+@RequestMapping("/users")
 public class UserController {
 
     @GetMapping
